@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+   
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  color: #455;
+  line-height: 1.5;
+  font-family: "Muli", sans-serif;
+  background-color: blueviolet;
+  background-image: url(https://csembrasil.com.br/wp-content/uploads/2016/10/fundo-video-depoimentos-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4, h5 {
+  font-weight: 800;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ul, ol {
+  padding-left: 40px;
+}
+button {
+  background-color: #4c96af; /* Green */
+  border: none;
   color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  padding: 10px 24px;
+  font-weight: 800;
+  border-radius: 8px;
+  margin: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.App-link {
-  color: #61dafb;
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {font-size: 1.9em; }
+h2 { font-size: 1.7em; }
+h3 { font-size: 1.5em; }
+
+li { margin-bottom: 10px;}
+
+header {
+  height: 60px;
+  line-height: 60px;
+  background: #1b93d7;
+  text-align: center;
+  color: #fff;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+main .wrapper {
+  padding: 50px 15px;
+}
+
+.form {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
 }
